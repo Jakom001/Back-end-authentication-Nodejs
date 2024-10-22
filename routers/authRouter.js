@@ -1,6 +1,6 @@
 const express = require("express")
 const authController = require('../controllers/authController');
-const { indentifier } = require("../middlewares/indentification");
+const { indentifier } = require("../middlewares/identification");
 
 const router = express.Router()
 
